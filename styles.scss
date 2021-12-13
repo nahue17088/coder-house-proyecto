@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200&display=swap');
+
+body{
+    background-image: url(Images/background-stars.png);
+    background-color:  #000000;
+    background-repeat: repeat;
+    width: 100%;
+    margin: 0;
+}
+
+        #titulo{
+            color: rgb(255, 255, 255);
+            letter-spacing: 8px;
+            font-family: "karla";
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 50px;
+        }
+
+        .subtituloHeader{
+            color: rgb(255, 255, 255);
+            letter-spacing: 8px;
+            font-family: "karla";
+            text-align: center;
+            text-transform: uppercase;
+            
+        }
+        header ul li{
+            text-align: left;
+        }
+
+        .menuNavegacion{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .menuNavegacion li{
+            display: inline;
+            margin-left: 1.5rem;
+            font-family: "karla";
+
+        }
+
+        .menuNavegacion li a{
+            text-decoration: none;
+            color: #ffffff
+        }
+
+        .alineacionNavegacion{
+            align-content: right;
+            padding-right: 1.875rem;
+        }
+
+        .active{
+            font-family: "karla";
+            color: white;
+            border-radius: 0.25rem;
+            padding: 0.313rem;
+            letter-spacing: 0.313rem;
+            font-weight: bold;
+        }
+        nav{
+            margin-bottom: 10px;
+            border-bottom: 1px solid white;
+        }
+
+        .planetsLogo{
+            text-decoration: none;
+            align-content: left;
+            padding-inline-start: 1.875rem;
+            padding-right: 4.375rem;
+            font-family: "karla";
+            letter-spacing: 0.313rem;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+
+        }
+
+
+        nav{
+            padding: 0;
+            margin: 0;
+        }
+        
+
+        main{
+            text-align: center;
+        }
+
+        main a{
+            text-transform: uppercase;
+            color: white;
+            font-family: "karla";
+        }
+
+        .box1{
+        width: 100px;
+        background-color: rgb(255, 255, 255);
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        }
+
+        .planets{
+            margin: 100px;
+            align-content: center;
+
+        }
+
+
+
+        .github-user{
+            color: white;
+            text-decoration: none;
+            font-family: "karla";
+            font-size: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .container-github{
+            display: flex;
+            align-items: center;
+            margin-top: 580px; /* mala practica (cambiar despues si o si!) */
+            justify-content: center;
+        }
+
+        #img-github{
+            width: 50px;
+            height: 50px;
+        }
+
+        .escoger-planets{
+            margin-bottom: 100px;
+        }
+
+    .TituloSubtitulo{
+        margin-top: 70px;
+    }
+
+    audio{
+        background-color: rgb(0, 217, 255);
+        border-radius: 10px;
+    }
+
+    .box-1{
+        border: 1.5px solid rgba(255, 254, 254, 0.452);
+        background: transparent;
+        height: 140px;
+        width: 320px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-mercury, .container-urane, .container-venus, .container-saturne, .container-mars, .container-earth, .container-neptune, .container-jupiter{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+
+
+    .box-1 h2{
+        color: rgba(206, 206, 206, 0.37);
+        text-align: left;
+        letter-spacing: 3px;
+        padding-top: 15px;
+        padding-left: 20px;
+        font-family: "karla";
+        text-transform: uppercase;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .centradoBox{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 3.5cm;
+        margin-right: 6cm;
+        margin-top: 3cm;
+    }
+
+    .planets-77{
+        margin-top: 110px;
+        justify-items: center;
+    }
+
+    .h1-planets{
+        color: white;
+        font-family: "karla";
+        text-align: right;
+
+    }
+
+    .box-1 p{
+        color: white;
+        font-size: 40px;
+        text-align: left;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column-reverse;
+        white-space: nowrap;
+        padding: 10px;
+    }
+
+    .audio{
+        color: black;
+        background-color: black;
+        border-radius: 100px;
+    }
+
+    .section{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+
+    .border{
+        border: blue solid 10px;
+        padding: 10px;
+    }
+
+    footer{
+        background-color: rgba(0, 0, 0, 0.39);
+        
+    }
+
+    .centrado-footer{
+        text-align: center;
+    }
+
+    .texto-footer{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: "karla";
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 7px;
+        grid-row-gap: 7px;
+        background-color: black;
+        border: 10px solid white;
+        }
+        
+        .div1 { border: 3px solid rgb(0, 0, 0); grid-area: 1 / 1 / 2 / 2; }
+
+        .conteiner{
+            display: flex;
+            justify-content: center;
+        }
+
+        #menu{
+            visibility: hidden;
+        }
+
+        .box-2{
+            background-color: black;
+            opacity: 0.5;
+            width: 400px;
+            height: 400px;
+            color: white;
+        }
+
+        .box-2 img{
+            align-items: center;
+        }
+
+        .box-3{
+            border: 1.5px solid rgba(255, 254, 254, 0.452);
+            background: transparent;
+            height: 140px;
+            width: 450px;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+
+        .container-texto{
+            display: flex;
+            justify-content: center;
+        }
+
+        .alineacion__wikipedia-imagen{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 50px;
+        }
+
+
+        #imagen-planets{
+            width: 450px;
+            height: 450px;
+            padding-right: 70px;
+        }
+
+        .container-wikipedia2{
+            width: 350px;
+            height: 500px;
+
+        }
+
+        .container-wikipedia2 h2{
+            margin-left: 60px;
+        }
+        
+        .container-wikipedia2 p{
+            margin-top: 40px;
+            color: rgba(255, 251, 251, 0.623);
+            font-family: "karla";
+            font-size: 17px;
+            text-align: left;
+            margin-bottom: 15px;
+        }
+
+        .container-wikipedia2 h2{
+            color: white;
+            font-size: 70px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: left;
+            margin-left: -22px;
+        }
+
+        .source{
+            color: rgba(255, 255, 255, 0.493);
+            font-family: "karla";
+            text-align: left;
+            font-size: 12px;
+        }
+
+        .wikipedia-source{
+            padding-top: 20px;
+            text-align: left;
+        }
+
+        .wikipedia{
+            color: white;
+            text-decoration: none;
+            font-size: 11px;
+        }
+
+        @media screen and (max-width: 1600px ){
+            .alineacion__wikipedia-imagen{
+                display: flex;
+                
+            }
+            .container-wikipedia2 h2{
+                margin-left: -22px;
+            }
+
+        }
+
+        @media screen and (max-width: 1170px ) {
+            .container-wikipedia2 h2{
+                margin-left: -100px;
+            }
+
+            .container-wikipedia2 p{
+                width: 290px;
+            }
+
+            .container-mercury, .container-urane, .container-venus, .container-saturne, .container-mars, .container-earth, .container-neptune, .container-jupiter{
+            display: flex;
+            flex-wrap: wrap;
+            padding-bottom: 20px;
+            }
+
+            .box-1{
+                width: 45%;
+            }
+        
+        }
+
+
+            @media screen and (max-width: 814px ){
+
+                .container-mercury, .container-urane, .container-venus, .container-saturne, .container-mars, .container-earth, .container-neptune, .container-jupiter{
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding-bottom: 20px;
+                }
+
+                #imagen-planets{
+                    width: 400px;
+                    height: 400px;
+                }
+
+                .container-wikipedia2 h2{
+                    margin-left: -22px;
+                }
+
+                .box-1{
+                    width: 50%;
+                }
+        }
+
+
+            @media screen and (max-width: 840px ) {
+                .container-mercury, .container-urane, .container-venus, .container-saturne, .container-mars, .container-earth, .container-neptune, .container-jupiter{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                }
+
+                .container-wikipedia2{
+                    margin-left: 80px;
+                }
+
+                .box-1{
+                    width: 45%;
+                }
+
+                .container-wikipedia2 h2{
+                    margin-left: -50px;
+                }
+        
+                #imagen-planets{
+                    width: 200px;
+                    height: 200px;
+                    display: flex;
+                }
+        
+                .container-wikipedia2 p{
+                    margin-top: 40px;
+                    color: rgba(255, 251, 251, 0.623);
+                    font-family: "karla";
+                    font-size: 17px;
+                    text-align: center;
+                    letter-spacing: 2px;
+                }
+        
+                .box-1{
+                    border: 1.5px solid rgba(255, 254, 254, 0.452);
+                    background: transparent;
+                    height: 140px;
+                    width: 90%;
+                    margin: 20px;
+                    display: flex;
+                    justify-content: center;
+                }
+                .alineacion__wikipedia-imagen{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+        
+                .earth__h2{
+                    display: flex;
+                }
+
+                #imagen-planets{
+                    margin-left: 100px;
+                }
+
+                /* menu */
+
+
+        #menu{
+            visibility: visible;
+
+        }
+
+        .container-menu-logo{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .container-li{
+            visibility: hidden;
+        }
+
+        .planetsLogo{
+            text-decoration: none;
+            align-content: left;
+            padding-inline-start: 1.875rem;
+            padding-right: 4.375rem;
+            font-family: "karla";
+            letter-spacing: 0.313rem;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+        }
+
+        #menu ul li {
+            background-color:#2e518b;
+        }
+        
+        #menu ul {
+        list-style:none;
+        margin:0;
+        padding:0;
+        }
+        
+        #menu ul a {
+        display:block;
+        color:#fff;
+        text-decoration:none;
+        font-weight:400;
+        font-size:15px;
+        padding:10px;
+        font-family: "karla";
+        text-transform:uppercase;
+        letter-spacing:1px;
+        }
+        
+        #menu ul li {
+        position:relative;
+        float:left;
+        margin:0;
+        padding:0;
+        }
+        
+        #menu ul li:hover {
+        background:#5b78a7;
+        
+        }
+        
+        #menu ul ul {
+        display:none;
+        position:absolute;
+        top:100%;
+    left:0;
+    padding:0;
+    }
+    
+    #menu ul ul li {
+    float:none;
+    width:150px
+    }
+    
+    #menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+    }
+    
+    #menu ul li:hover > ul {
+    display:block;
+    }
+    
+        }
+
+    @media screen and (max-width: 200px ) {
+        .container-mercury, .container-urane, .container-venus, .container-saturne, .container-mars, .container-earth, .container-neptune, .container-jupiter{
+        display: flex;
+        flex-direction: column;
+        }
+
+
+        #imagen-planets{
+            width: 200px;
+            height: 200px;
+            margin-left: 65px;
+        }
+
+        .container-wikipedia2 p{
+            margin-top: 40px;
+            color: rgba(255, 251, 251, 0.623);
+            font-family: "karla";
+            font-size: 17px;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+
+        .box-1{
+            border: 1.5px solid rgba(255, 254, 254, 0.452);
+            background: transparent;
+            height: 140px;
+            width: 90%;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            
+        }
+        .alineacion__wikipedia-imagen{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        }
+
+        .earth__h2{
+            display: flex;
+            justify-content: center;
+        }
+
+
+    .galaxys__img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .container-galaxys{
+        display: flex;
+        justify-content: center;
+    }
+
+    container-galaxys:hover{
+        box-shadow: #ffffff;
+    }
+        
+    
+        
+    
